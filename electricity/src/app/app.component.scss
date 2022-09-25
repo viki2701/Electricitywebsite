@@ -74,9 +74,29 @@ a.colorthem{
         margin-right:6px;
         }
     div.chooselanguage{
-        height:10px;
-        width:400px;
-        background-color: green;
-        display: block;
-        position: relative;
+        height: 20px;
+        width: 500px;
+        display: flex;
+        position: fixed;
+        padding: 20px;
+        margin-left: 780px;
+        margin-top: 30px;
+        color: white;
+        padding-top: 1px;
+        padding-bottom: 10px;
     }
+    a.chooselanguage{
+        text-decoration: none;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:14px;
+        font-weight: 500;
+        padding-left:6px;
+        padding-right:6px;
+        margin-left:6px;
+        margin-right:6px;
+        }
+        a.chooselanguage:hover
+        {
+            color:yellow;
+        }
