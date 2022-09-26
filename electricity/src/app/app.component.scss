@@ -75,15 +75,12 @@ a.colorthem{
         }
     div.chooselanguage{
         height: 20px;
-        width: 500px;
-        display: flex;
-        position: fixed;
-        padding: 20px;
-        margin-left: 780px;
-        margin-top: 30px;
-        color: white;
-        padding-top: 1px;
-        padding-bottom: 10px;
+    width: 450px;
+    display: flex;
+    position: absolute;
+    top: 45px;
+    right: 110px;
+    color: white;
     }
     a.chooselanguage{
         text-decoration: none;
