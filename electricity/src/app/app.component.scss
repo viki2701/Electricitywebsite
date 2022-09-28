@@ -109,8 +109,8 @@ a.colorthem{
             width: 100%;         
         }
 
-        div.menubar{
-            height: 100%;
+    div.menubar{
+    height: 100%;
     display: flex;
     width: 83%;
     position: absolute;
@@ -119,29 +119,58 @@ a.colorthem{
     top: 1px;
     margin: 0px;
     padding: 0px;
+    
   }
   ul.navul{
     list-style-type: none;
+    display: flex;
     padding:0px;
     margin:0px;
-    display: flex;
-    color: white;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
+    
+    
+    
   }
 
   li.navli{
-    color:white;
-    display: flex;
-    padding: 2px 15px;
-    align-items: center;
-    justify-content: center;
-
+    text-align: center;
+      
+     
   }
+
   div.navicon{
     color:white;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    flex-basis: content;
   }
+  div.icontext{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    flex-basis: content;
+  }
+  a.navlink{
+    
+    display: block;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-left: 1px solid rgba(250, 250, 250, 0.3);
+    border-right: 1px solid rgba(250, 250, 250, 0.3);
+    margin: 0px;
+    padding-left: 33px;
+    padding-right: 51px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    height: 100%;
+    box-sizing: border-box;
+}
+  
+a.navlink:hover{
+    background-color: #14326d;
+}
