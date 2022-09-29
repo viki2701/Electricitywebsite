@@ -174,3 +174,15 @@ a.colorthem{
 a.navlink:hover{
     background-color: #14326d;
 }
+.navlast:nth-child(6n+6){
+    background: #ffc107 !important;
+   }
+
+li.navlast a:hover{
+    background: #ffc107 !important;
+}
+div.naviconlast{
+    text-align: center !important;
+    color:black !important;
+    
+}
