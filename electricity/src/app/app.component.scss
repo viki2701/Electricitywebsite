@@ -186,3 +186,95 @@ div.naviconlast{
     color:black !important;
     
 }
+div.newservice{
+    background-color: #710000;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 132px;
+    margin-left: 100px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    height: 35px;
+    color:white;
+}
+img.newsservicesimg{
+    position: absolute;
+    left: 213px;
+    top: 10px;
+    height: 10px;
+}
+p.newsservicepar{
+    position: absolute;
+    left: 245px;
+    top: 2px;
+    font-size: 17px;
+    font-weight: 400;
+    vertical-align: baseline;
+}
+a.newservicelink{
+    position: absolute;
+    left: 688px;
+    top: 2px;
+    font-size: 17px;
+    font-weight: 600px;
+    color: white;
+    vertical-align: baseline;
+ }
+ img.newsservicesimg2{
+    position: absolute;
+    left: 798px;
+    top: 10px;
+    height: 10px;
+ }
+ div.mainwebsite{
+    background-color: #1D8A80;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 132px;
+    margin-left: 100px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    height: 35px;
+    color:white;
+}
+ p.mainwebsite{
+    position: absolute;
+    left: 304px;
+    top: 2px;
+    font-size: 17px;
+    font-weight: 400;
+    vertical-align: baseline;
+}
+a.mainwebsite{
+    position: absolute;
+    left: 652px;
+    top: 2px;
+    font-size: 17px;
+    font-weight: 600px;
+    color: white;
+    vertical-align: baseline;
+ }
+ div.welcome{
+    background-color: #E4C0CC;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 132px;
+    margin-left: 100px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    height: 63px;
+    color: black;
+}
+ p.welcome{
+    position: absolute;
+    top: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    vertical-align: baseline;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width: 100%;
+ }
