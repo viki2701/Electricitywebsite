@@ -1,4 +1,8 @@
 
+div.mainbackground{
+    background-color: #D3DDE3;
+}
+
 div.top{
     background-color: #704e44;
     height: 98px;
@@ -315,6 +319,7 @@ a.mainwebsite{
     margin-bottom: 100px;
     border-radius: 8px;
     box-shadow: 1px 1px #999;
+    background-color: white;
  }
  div.headerrecentnews{
     background-color: #1E4EAB;
@@ -327,6 +332,7 @@ a.mainwebsite{
     padding: 10px;
     justify-content: center;
     align-content: center;
+    
  }
  div.recruitment{
     top: 48px;
@@ -340,10 +346,25 @@ a.mainwebsite{
     padding-left: 19px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.18);
     text-decoration: none;
- }
+    animation-name: recruitment;
+    animation-duration: 0.5s;
+    animation-delay: 3s;
+           
+}
+ @keyframes recruitment {
+   from{
+    height: 89px;
+    opacity:1;
+   }
+   to {
+    height: 1px;
+    opacity:0;
+   }
+  }
  a.readmore{
     text-decoration: none;
  }
  a.readmore:hover{
     cursor: pointer;
  }
+
