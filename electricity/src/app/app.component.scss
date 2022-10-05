@@ -146,12 +146,14 @@ a.colorthem{
     flex-basis: content;
   }
   div.icontext{
-    color:white;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     flex-basis: content;
+    margin-left: -8px;
+    margin-right: 5px;
   }
   a.navlink{
     
@@ -183,8 +185,9 @@ li.navlast a:hover{
 }
 div.naviconlast{
     text-align: center !important;
-    color:black !important;
-    
+    color: black !important;
+    margin-bottom: -9px;
+    margin-top: -2px;
 }
 div.newservice{
     background-color: #710000;
@@ -277,4 +280,28 @@ a.mainwebsite{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     width: 100%;
+ }
+ div.slideimage{
+    display: flex;
+    position: relative;
+    margin: 10px;
+    height: 350px;
+    width: 694px;
+    left: 91px;
+    top: 12px;
+    margin-bottom: 100px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 1px 1px #999;
+  }
+ img.carouselitemimg{
+    height: 100%;
+    width: 100%;
+    background-size: auto;
+    object-fit:fill;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #999;
+    display: flex;
+
  }
