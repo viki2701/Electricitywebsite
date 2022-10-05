@@ -285,23 +285,44 @@ a.mainwebsite{
     display: flex;
     position: relative;
     margin: 10px;
-    height: 350px;
+    height: 328px;
     width: 694px;
     left: 91px;
     top: 12px;
     margin-bottom: 100px;
-    background-color: lightblue;
     border-radius: 10px;
     box-shadow: 1px 1px #999;
+    object-fit: contain;
   }
- img.carouselitemimg{
-    height: 100%;
-    width: 100%;
-    background-size: auto;
-    object-fit:fill;
-    padding: 3px;
+  img.carouselimgone{
+    height: 328px;
+    width: 694px;
+    padding: 0px;
+    margin: 0px;
     border-radius: 10px;
-    box-shadow: 1px 1px #999;
-    display: flex;
+    box-shadow: 2px 2px #999;
+    object-fit: fill;
+    }
+img.carouselimgtwo{
+    height: 328px;
+    width: 694px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #999;
+    object-fit: fill;
 
- }
+    
+}
+ 
+img.carouselimgthree{
+    height: 328px;
+    width: 694px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #999;
+    object-fit: fill;
+}
+ 
+ 
