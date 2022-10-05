@@ -292,37 +292,58 @@ a.mainwebsite{
     margin-bottom: 100px;
     border-radius: 10px;
     box-shadow: 1px 1px #999;
-    object-fit: contain;
-  }
-  img.carouselimgone{
+   
+}
+  img.carouselimg{
     height: 328px;
     width: 694px;
     padding: 0px;
     margin: 0px;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 2px 2px #999;
     object-fit: fill;
     }
-img.carouselimgtwo{
-    height: 328px;
-    width: 694px;
-    margin: 0px;
-    padding: 0px;
-    border-radius: 10px;
-    box-shadow: 2px 2px #999;
-    object-fit: fill;
 
-    
-}
- 
-img.carouselimgthree{
-    height: 328px;
-    width: 694px;
-    padding: 0px;
+    div.recentnews{
+    display: flex;
+    position: absolute;
     margin: 0px;
-    border-radius: 10px;
-    box-shadow: 2px 2px #999;
-    object-fit: fill;
-}
- 
- 
+    height: 328px;
+    width: 391px;
+    left: 721px;
+    top: 0px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    box-shadow: 1px 1px #999;
+ }
+ div.headerrecentnews{
+    background-color: #1E4EAB;
+    display: flex;
+    position: absolute;
+    height: 48px;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+ }
+ div.recruitment{
+    top: 48px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 89px;
+    width: 100%;
+    padding: 7px;
+    padding-left: 19px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    text-decoration: none;
+ }
+ a.readmore{
+    text-decoration: none;
+ }
+ a.readmore:hover{
+    cursor: pointer;
+ }
