@@ -1,6 +1,7 @@
 
 div.mainbackground{
     background-color: #D3DDE3;
+    height:1500px;
 }
 
 div.top{
@@ -293,7 +294,6 @@ a.mainwebsite{
     width: 694px;
     left: 91px;
     top: 12px;
-    margin-bottom: 100px;
     border-radius: 10px;
     box-shadow: 1px 1px #999;
    
@@ -316,7 +316,6 @@ a.mainwebsite{
     width: 391px;
     left: 721px;
     top: 0px;
-    margin-bottom: 100px;
     border-radius: 8px;
     box-shadow: 1px 1px #999;
     background-color: white;
@@ -367,4 +366,16 @@ a.mainwebsite{
  a.readmore:hover{
     cursor: pointer;
  }
-
+div.about_eb{
+    display: block;
+    position: relative;
+    margin-top: 35px;
+    height: 272px;
+    width: 1118px;
+    left: 98px;
+    top: 0px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    box-shadow: 1px 1px #999;
+    background-color: #ffffff;
+}
