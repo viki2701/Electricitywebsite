@@ -1,7 +1,7 @@
 
 div.mainbackground{
     background-color: #D3DDE3;
-    height:1500px;
+    height:1900px;
 }
 
 div.top{
@@ -373,7 +373,6 @@ div.about_eb{
     width: 1118px;
     left: 98px;
     top: 0px;
-    margin-bottom: 100px;
     border-radius: 8px;
     box-shadow: 1px 1px #999;
     background-color: #ffffff;
@@ -399,4 +398,43 @@ div.about_heading{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 24px;
     text-align: center;
+}
+div.about_para{
+    Position: absolute;
+    height: 200px;
+    width: 712px;
+    top: 68px;
+    left: 397px;
+    text-align: justify;
+    font-size: 14px;
+}
+div.about_link{
+    position: absolute;
+    height: 30px;
+    border-radius: 60px;
+    width: 379px;
+    top: 223px;
+    left: 719px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #8F0581;
+    padding: 3px;
+
+}
+a.about_link{
+    text-decoration: none;
+    color:white;
+    font-size:11px;
+}
+div.payment{
+    left: 98px;
+    top: 0px;
+    display: block;
+    position: relative;
+    margin-top: 35px;
+    height: 550px;
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 1px 1px #999;
+    background-color: #ffffff;
 }
