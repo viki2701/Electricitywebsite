@@ -139,7 +139,6 @@ a.colorthem{
   li.navli{
     text-align: center;
       
-     
   }
 
   div.navicon{
@@ -378,4 +377,26 @@ div.about_eb{
     border-radius: 8px;
     box-shadow: 1px 1px #999;
     background-color: #ffffff;
+}
+
+img.about_imgitem{
+    position: absolute;
+    height: 100%;
+    width: 381px;
+    margin: 0px;
+    padding: 0px;
+    object-fit: fill;
+    box-shadow: 1px 1px #999;
+    border-radius: 6px;    
+}
+div.about_heading{
+    position: absolute;
+    left: 386px;
+    height: 56px;
+    width: 715px;
+    margin: 8px;
+    padding: 7px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    text-align: center;
 }
